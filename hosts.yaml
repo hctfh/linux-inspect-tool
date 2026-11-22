@@ -1,0 +1,25 @@
+hosts:
+  - ip: 127.0.0.1
+    port: 2221
+    user: test
+    pwd: test
+  - ip: 127.0.0.1
+    port: 2222
+    user: test
+    pwd: test
+  - ip: 127.0.0.1
+    port: 2221
+    user: test
+    pwd: test
+  - ip: 127.0.0.1
+    port: 2222
+    user: test
+    pwd: test
+  - ip: 127.0.0.1
+    port: 2221
+    user: test
+    pwd: test
+  - ip: 127.0.0.1
+    port: 2222
+    user: test
+    pwd: test

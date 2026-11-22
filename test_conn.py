@@ -1,4 +1,3 @@
-# test_conn.py
 import asyncio
 import asyncssh
 
@@ -9,7 +8,6 @@ async def main():
     ) as conn:
         r = await conn.run("hostname; cat /proc/loadavg; nproc")
         print("hostname/load/nproc:")
-        print(r.stdout)
+        print(r.stdout.strip())
 
 asyncio.run(main())
-
